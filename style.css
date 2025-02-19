@@ -12,12 +12,20 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 25px;
+    position: fixed; 
+    top: 0;          
+    left: 0;         
+    width: 100%;    
+    color: white;    
+    z-index: 100;
+}
+.navbar active{
+    background-color: blanchedalmond;
 }
 
 .menu {
     display: flex;
     align-items: center;
-    /* pour éliminer les points */
     list-style: none; 
 }
 
